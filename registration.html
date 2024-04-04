@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+
+        * {
+            margin: 7px;
+        }
+ body{
+       background-image: url(photo2.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: static; 
+    }
+    .foot{
+    background-color:rgba(6, 100, 151, 0.314);
+    height: 7in;
+    width: 100%;
+}
+.footer{
+    width: 70px;
+    height: 70px;
+    margin-top: 45px;
+    margin-left: 15%;
+    
+}
+
+.footers{
+    width: 60px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 15%;
+}
+.app{
+    font-weight: bolder;
+    margin-left: 15%;
+   
+}
+.top{
+    margin-left: 15%;
+}
+        h1 {
+            background-color:rgba(31, 100, 137, 0.314);
+            color: white;
+            text-align: center;
+            height: 96px;
+            margin-top: 3%;
+        }
+
+        .for {
+            text-align: center;
+
+        }
+
+        form {
+            background-color: rgb(223, 228, 232);
+            border: 2px solid black;
+            border-radius: 2%;
+        }
+
+        #rope {
+            width: 30%;
+        }
+
+        .but {
+            width: 20%;
+            color: white;
+            height: 39px;
+            background-color: rgb(148, 215, 148);
+        }
+
+        .but:hover {
+            background-color: rgb(0, 176, 76);
+        }
+
+        #res {
+            background-color: rgb(248, 10, 10);
+            color: white;
+            width: 10%;
+            height: 40px;
+        }
+
+        #res:hover {
+            background-color: rgb(191, 0, 0);
+        }
+        a{
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-indent: inherit;
+    padding: 1%;
+    margin: 1%;
+}
+#ayeshass{
+    width: 2%;
+    height: 4%; 
+    position: relative;
+   
+   
+}
+.cope{
+    width: 2%;
+    height: 4%; 
+   
+    
+}
+.nope{
+    width: 2%;
+    height: 1%; 
+   
+    
+}
+.lope{
+    height: 2%;
+    width: 3%;
+}
+    </style>
+</head>
+<body>
+     <nav > 
+    <a href="index.html">Home</a>
+    <a href="registration.html">Registration </a>
+    <a href="contact.html">Contacts</a>
+    <a href="about.html">About us</a>
+    
+    <a href="https://www.facebook.com/"> <img src="facebook.png" alt="ayesha" id="ayeshass"></a>
+    <a href="https://www.instagram.com/accounts/login/"> <img src="insta.jpg" alt="linkdln" class="nope"></a>
+    <a href="https://www.linkedin.com/login">  <img src="link'.png" alt="linkdln" class="cope"></a>
+    <a href="https://twitter.com/login">  <img src="twitter.png" alt="linkdln" class="lope"></a>
+   
+</nav>
+
+<main>  
+    <h1>Registration Form <br>Please Fill All The Field In The Form</h1>
+    <form class="for">
+        <div>
+            <h3> Enter your Name: <br><input type="text" id="rope" placeholder="Enter your name" required></h3>
+            <h3>Enter for course:<br> <input type="email" id="rope" placeholder="Enter your course" required </h3>
+                <h3>Enter your Number:<br> <input type="number" id="rope" placeholder="Enter your number" required </h3>
+                    <h3>Enter your Address:<br> <input type="text" id="rope" placeholder="Enter your address" required
+                            </h3>
+                        <h3>Enter your message:
+                            <br>
+                            <label for="message"></label>
+                            <textarea class="form-control" id="rope" name="form" rows="3"
+                                placeholder="enter your query here" required></textarea>
+                        </h3>
+                        <h3>Enter your city:
+                            <br>
+                            <select>
+                                <option>Karachi</option>
+                                <option>Lahore</option>
+                                <option>Pindi</option>
+                                <option>Gilgit</option>
+                                <option>Rawalpindi</option>
+                            </select>
+                        </h3>
+                        <!-- <button type="button" value="button" class="but">submit </button> -->
+                        <a href="sumitted.html" class="but" value="reset" type="submit">Submit</a>
+                        <input type="submit" value="reset" id="res">
+        </div>
+    </form>
+</main>
+<footer class="foot">
+    <a href="https://www.bbc.com/future/article/20130722-revolution-in-paris-street-design"><li><img src="dlocation.png" alt="location" class="footer"> </li></a>
+    <p class="top">21 revolution street</p>
+     <p class="app">Paris,France</p>
+   <a href="https://web.whatsapp.com/"> <li> <img src="dcontact.png" alt="contact" class="footers"></li></a>
+    <p class="top">03002518976</p>
+  <a href="https://mail.google.com/mail/u/0/"><li> <img src="dmail.png" alt="mail" class="footer"> </li></a>  
+        <p class="top" style="color: rgb(71, 182, 219); text-decoration: underline;">ayeshasiddiqui@gmail.com</p>
+   
+    
+    
+   </footer>
+</body>
+</html>
